@@ -15,7 +15,7 @@ Unfortunally I do not have the schematics for the electrical circuit anymore but
 1. Cut the power cable of the fan and separate the positive and negative wires
 2. Cut them both and plug them into the circuit board
 3. Between either the negative or positive (I can't tell from the video) I plugged a transistor that is just gonna act as a gate. So if the gate is closed -> circuit closed -> fan no work
-4. I plugged the third leg of the transistor to the 9th pin of the arduino
+4. I plugged the 3rd leg of the transistor to the 9th pin of the arduino
 5. The 9th pin sends a digital output. If the car's speed is at 0, the pin will not send a signal so the gate/transistor will not open, so fan no work. If the car's speed is at about 128, the pin will send a signal half of the time (half of a hertz?), so the fan should turn at half the speed. And you can guess what happens at car's speed 255 and every other value. You can visually see this through the oscilloscope in the video
 6. The last thing plugged in I'd guess is the oscilloscope, to monitor the frequency
 
