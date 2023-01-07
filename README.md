@@ -1,6 +1,6 @@
 # 4D Car Game
 
-This is from a project I made 6 years ago : https://www.youtube.com/watch?v=8WCwRnCh0zo&lc=UgxIbXtk8FHrrkHjGmp4AaABAg
+This is a project I made 6 years ago : https://www.youtube.com/watch?v=8WCwRnCh0zo&lc=UgxIbXtk8FHrrkHjGmp4AaABAg
 
 I was pretty new to programming and even newer to electronics so I had to dig a bunch.
 
