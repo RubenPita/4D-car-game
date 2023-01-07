@@ -24,5 +24,5 @@ Unfortunally I do not have the schematics for the electrical circuit anymore but
 - It's pretty much turning on and off the fan very fast.
 - I chose to send a digital signal over analogical because it would probably have burnt the fan, or worse.
 - There was no transformation of the car's speed value which led to the max speed only be attainable when I went off the map. Should've done better by multiplying the value.
-- After reading the arduino script I realised I call analogWrite() at the start of the loop. Doesn't matter too much but it should go at the end of the loop.
+- After reading the arduino script I realise I call analogWrite() at the start of the loop. Doesn't matter too much but it should go at the end of the loop.
 - I like lists.
