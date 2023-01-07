@@ -1,6 +1,7 @@
 # 4D Car Game
 
 This is from a project I made 6 years ago : https://www.youtube.com/watch?v=8WCwRnCh0zo&lc=UgxIbXtk8FHrrkHjGmp4AaABAg
+
 I was pretty new to programming and even newer to electronics so I had to dig a bunch.
 
 ## Process :
@@ -25,6 +26,6 @@ Unfortunally I do not have the schematics for the electrical circuit anymore but
 - There was no transformation of the car's speed value which led to the max speed only be attainable when I went off the map. Should've done better by multiplying the value
 - After reading the arduino script I realised I call analogWrite() at the start of the loop. Doesn't matter too much but it should go at the end of the loop
 
-
+---
 
 I like lists.
