@@ -10,7 +10,7 @@ I was pretty new to programming and even newer to electronics so I had to dig a 
 2. In an Arduino script, recover that value from the virtual port and send it to pin 9 (the value must be between 0 and 255).
 3. Pin 9 will control the frequency of the fan through a transistor in the fan's circuit.
 
-Unfortunally I do not have the schematics for the electrical circuit anymore but it is really simple electronics. All I did was :
+Unfortunately, I do not have the schematics for the electrical circuit anymore but it is really simple electronics. All I did was :
 
 1. Cut the power cable of the fan and separate the positive and negative wires.
 2. Cut them both and plug them into the circuit board.
