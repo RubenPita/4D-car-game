@@ -4,23 +4,23 @@ int strength = 0;
 
 void setup() 
 {
-  Serial.begin(9600);
-  Serial.setTimeout(10);
-  pinMode(pin, OUTPUT);
+    Serial.begin(9600);
+    Serial.setTimeout(10);
+    pinMode(pin, OUTPUT);
 }
 
 void loop() 
 {
-  analogWrite(pin, strength);
-  
-  if (Serial.available())
-  {
-    data = Serial.parseInt();
-    Serial.print(data);
-
-    if (data <= 255 || data >= 0)
+    if (Serial.available())
     {
-        strength = data;
+        data = Serial.parseInt();
+        Serial.print(data); // debug
+
+        if (data >= 0 || data <= 255)
+        {
+            strength = data;
+        }
     }
-  }
+  
+    analogWrite(pin, strength);
 }
